@@ -8,7 +8,7 @@ st.set_page_config(page_title="HAL Insight",page_icon="🛸")
 st.title("🏠 Accueil | HAL Insight")
 
 st.markdown("""
-Bienvenu-e sur le tableau de bord HAL Insight !
+Bienvenue sur le tableau de bord HAL Insight !
 
 🔎 Ici vous pouvez :
 - Récupérer les articles sur HAL
@@ -20,7 +20,7 @@ Bienvenu-e sur le tableau de bord HAL Insight !
     * Nuage des mots clés
     * Réseaux de cooccurrence
             
-en consultant la barre latéral! 
+en consultant la barre latérale ! 
 """)
 st.divider() #分割线
 
@@ -33,7 +33,7 @@ st.subheader("📬 Feedbacks")
 st.markdown("Merci de m'écrire par email pour tout problème : ye.liu@chartes.psl.eu")
 
 # page = st.selectbox("App en question", ["articles fetcher", "tendance & répartition", "wordcloud global", "wordcloud évolutif", "Autres pages"])
-# problem = st.text_area("Votre feedback:")
+# problem = st.text_area("Votre feedback :")
 
 # #右下角按钮
 # cols=st.columns([5,1])
@@ -43,7 +43,7 @@ st.markdown("Merci de m'écrire par email pour tout problème : ye.liu@chartes.p
 # if feedback_button:
 #     if problem.strip():
 #         append_feedback(page, problem)
-#         st.success(f"✅ Merci pour votre feedback！")
+#         st.success(f"✅ Merci pour votre feedback ！")
 #     else:
 #         st.warning("Input obligatoire!")
 
@@ -81,7 +81,7 @@ st.markdown("Merci de m'écrire par email pour tout problème : ye.liu@chartes.p
                 
 # # else:
 # #     st.write('\n')
-# #     st.write("Aucune mis à jour...")
+# #     st.write("Aucune mise à jour...")
 
 
 
